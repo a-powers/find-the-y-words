@@ -29,5 +29,5 @@ while not guessed_all:
 
     if char_spaces[position] != "_":
         guessed_all = True
-        print("You win my respect!")
+        print("You win and may good fortune come your way!")
     
