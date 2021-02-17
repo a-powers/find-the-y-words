@@ -2,7 +2,7 @@ import random
 from replit import clear
 from words import word_list
 
-print("Welcome to choose a 'Y' word.  Why you say?  Why not.")
+print("Welcome to choose a 'Y' word.  Why you say?  Why not.  You have an infinite number of tries and the first letter is on me, 'Y'.  Good luck!")
 
 chosen_word = random.choice(word_list)
 word_length = len(chosen_word)
@@ -29,5 +29,5 @@ while not guessed_all:
 
     if char_spaces[position] != "_":
         guessed_all = True
-        print("You win my respect!")
+        print("You win!")
     
