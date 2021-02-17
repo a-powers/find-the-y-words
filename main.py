@@ -2,7 +2,7 @@ import random
 from replit import clear
 from words import word_list
 
-print("Most common words in the US dictionary.  Pick a letter and guess what the word is.")
+print("Welcome to choose a 'Y' word.  Why you say?  Why not.")
 
 chosen_word = random.choice(word_list)
 word_length = len(chosen_word)
@@ -29,5 +29,5 @@ while not guessed_all:
 
     if char_spaces[position] != "_":
         guessed_all = True
-        print("You did it, you win!")
+        print("You win my respect!")
     
